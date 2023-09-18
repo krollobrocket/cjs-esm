@@ -1,0 +1,16 @@
+{
+  "name": "commonjs-esm",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Example of using esm vs commonjs",
+  "main": "./src/esm/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krister Andersson <cyclonecode@gmail.com>",
+  "license": "MIT",
+  "exports": {
+    "require": "./src/commonjs/index.js",
+    "import": "./src/esm/index.js"
+  }
+}
